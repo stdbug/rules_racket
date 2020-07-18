@@ -1,0 +1,9 @@
+workspace(name = "rules_racket_examples")
+
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
+git_repository(
+    name = "rules_racket",
+    branch = "master",
+    remote = "https://github.com/codefables/rules_racket.git",
+)
