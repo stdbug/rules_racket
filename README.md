@@ -1,7 +1,7 @@
 # Bazel Rules for Racket Applications and Tests
 
 ## Setup
-You need to have Racket installed and added to your PATH environment variable
+You need to have Racket installed and added to your `PATH` environment variable
 
 Add the following to your `WORKSPACE` file to link rules_racket repository:
 ```python
